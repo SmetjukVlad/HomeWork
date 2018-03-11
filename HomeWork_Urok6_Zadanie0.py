@@ -1,0 +1,5 @@
+line = input('Enter line: ')
+separator = input('Enter separator: ')
+line = line.split(separator)
+r = list(map(lambda x:str(len(x))+x,line))
+print('New line: ', r)
